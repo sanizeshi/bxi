@@ -9,16 +9,11 @@ pkg install python2
 
 pkg install git
 
-git clone https://github.com/binyamin-binni/bxi.git
+rm -rf bxi
 
-# Usage
+git clone https://github.com/binyamin-binni/bxi.git
 
 cd bxi
 
 python2 bxi.py
 
-
-# Note
-If you have already installed old version of BXI then remove it by entering this command
-
-rm -rf bxi
